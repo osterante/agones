@@ -17405,6 +17405,7 @@ spec:
       targetPort: 8443
       protocol: TCP
   type: LoadBalancer
+  externalTrafficPolicy: Local
 ---
 # Source: agones/templates/service/allocation.yaml
 apiVersion: v1
